@@ -521,6 +521,8 @@ def auto_create_page():
 if __name__ == "__main__":
       try:
 
+              while True:
+                print('\n\x1b[1;92m  
            _   _ _____  _____ _    _ 
      /\   | \ | |_   _|/ ____| |  | |
     /  \  |  \| | | | | (___ | |__| |
@@ -529,18 +531,24 @@ if __name__ == "__main__":
  /_/    \_\_| \_|_____|_____/|_|  |_|
                                      
                                      
-  print('\n\x1b[1;92m' + '-' * 50 + '\x1b[0m')
-  print('\n\x1b[1;92mOwner     :\x1b[0m \x1b[1;97mANISH\x1b[0m ')
-  print('\x1b[1;92mFacebook  :\x1b[0m \x1b[1;97mfacebook.com/intel.ANISH EXO\x1b[0m ')
-  print('\x1b[1;92mTool Type :\x1b[0m \x1b[1;97mFacebook Manager\x1b[0m ')
-  print('\x1b[1;92mCOST   :\xFREE[0m \x1b[1;97m1.0\x1b[0m ') 
-  print('\n\x1b[1;92m' + '-' * 50 + '\x1b[0m')
-  print('\n\x1b[1;92m[01]\x1b[0m \x1b[1;97mAuto React on Facebook Post (page)\x1b[0m')
-  print('\x1b[1;92m[02]\x1b[0m \x1b[1;97mAuto Comment on Facebook Post (page)\x1b[0m')
-  print('\x1b[1;92m[03]\x1b[0m \x1b[1;97mAuto Share on Facebook Post (user)\x1b[0m')
-  print('\x1b[1;92m[04]\x1b[0m \x1b[1;97mAuto Follow Facebook Account (page)\x1b[0m') 
- print('\x1b[1;92m[05]\x1b[0m \x1b[1;97mAuto Create Page (user)\x1b[0m')
-  print('\x1b[1;92m[06]\x1b[0m \x1b[1;97mExit\x1b[0m')
+                       \x1b[0m')
+                print('\x1b[1;92m                       \x1b[0m')
+                print('\x1b[1;92m                        \x1b[0m')
+                print('\x1b[1;92m                          \x1b[0m')
+                print('\x1b[1;92m                        \x1b[0m')
+                print('\x1b[1;92m                         \x1b[0m')
+                print('\n\x1b[1;92m' + '-' * 50 + '\x1b[0m')
+                print('\n\x1b[1;92mOwner     :\x1b[0m \x1b[1;97mAnishm\x1b[0m ')
+                print('\x1b[1;92mFacebook  :\x1b[0m \x1b[1;97mfacebook.com/intel.Anish\x1b[0m ')
+                print('\x1b[1;92mTool Type :\x1b[0m \x1b[1;97mFacebook Manager\x1b[0m ')
+                print('\x1b[1;92mVersion   :\x1b[0m \x1b[1;97m1.0\x1b[0m ')
+                print('\n\x1b[1;92m' + '-' * 50 + '\x1b[0m')
+                print('\n\x1b[1;92m[01]\x1b[0m \x1b[1;97mAuto React on Facebook Post (page)\x1b[0m')
+                print('\x1b[1;92m[02]\x1b[0m \x1b[1;97mAuto Comment on Facebook Post (page)\x1b[0m')
+                print('\x1b[1;92m[03]\x1b[0m \x1b[1;97mAuto Share on Facebook Post (user)\x1b[0m')
+                print('\x1b[1;92m[04]\x1b[0m \x1b[1;97mAuto Follow Facebook Account (page)\x1b[0m')
+                print('\x1b[1;92m[05]\x1b[0m \x1b[1;97mAuto Create Page (user)\x1b[0m')
+                print('\x1b[1;92m[06]\x1b[0m \x1b[1;97mExit\x1b[0m')
 
                 operation_choice = input("\n\x1b[1mChoose operation you want (1, 2, 3, 4, 5, 6): \x1b[0m")
 
